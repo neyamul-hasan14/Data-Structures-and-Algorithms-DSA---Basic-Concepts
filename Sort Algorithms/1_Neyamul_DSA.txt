@@ -1,0 +1,6 @@
+Created by     << Kazi Neyamul Hasan >>
+
+Welcome to my Data Structures and Algorithms (DSA) basics repository. This collection of code includes foundational algorithms and data structures that I've learned and implemented. Feel free to explore and use this code as a reference for learning or interview preparation.
+
+Happy coding!
+:D

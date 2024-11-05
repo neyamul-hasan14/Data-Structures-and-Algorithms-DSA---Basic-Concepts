@@ -1,0 +1,24 @@
+In Data Structures and Algorithms (DSA), a Binary Search Tree (BST) is a type of binary tree with a special ordering property. In a BST, each node has at most two children, and the values are arranged in a way that makes searching efficient. Here’s how it works:
+
+    Properties:
+        For each node:
+            The left subtree contains only nodes with values less than the node's value.
+            The right subtree contains only nodes with values greater than the node's value.
+        This property is applied recursively to all nodes in the tree.
+
+    Operations:
+        Search: Because of the ordering, you can easily search for values. Start from the root and move left if the target value is smaller than the current node, or move right if it’s larger. This can reduce the search time significantly, especially in a balanced BST.
+        Insert: Inserting a new value follows the same rule. You start at the root and follow the path down to an empty position according to the value’s relation to existing nodes.
+        Delete: Deleting a node can be more complex, with three main cases:
+            If the node has no children, it’s simply removed.
+            If the node has one child, it’s replaced with that child.
+            If the node has two children, it’s replaced by its in-order successor or in-order predecessor.
+
+    Time Complexity:
+        For a balanced BST, the average time complexity for search, insert, and delete is O(log⁡n)O(logn).
+        However, in the worst case (e.g., if the tree becomes skewed like a linked list), the complexity can degrade to O(n)O(n).
+
+    Applications:
+        BSTs are used in applications requiring fast lookups, insertions, and deletions, like databases, file systems, and more.
+
+Using a balanced BST structure, such as an AVL Tree or a Red-Black Tree, ensures the tree remains balanced for more efficient operations.
